@@ -1,0 +1,29 @@
+public class Main {
+    public static void main(String[] args) {
+         Player firstPlayer = new Player();
+         firstPlayer .name = "Cristiano Ronaldo" ;
+         firstPlayer .age = 38 ;
+         firstPlayer .rank = 8 ;
+         firstPlayer .team = "All-Nassr" ;
+         //method to provide player information:
+         firstPlayer .info() ;
+
+
+         Player secondPlayer = new Player();
+         secondPlayer .name = "Lionel Messi" ;
+         secondPlayer .age = 36 ;
+         secondPlayer .rank = 5 ;
+         secondPlayer .team = "Inter Miami" ;
+         //method to provide player information:
+         secondPlayer .info();
+
+
+         Player thirdPlayer = new Player();
+         thirdPlayer .name = "Kylian Mbappe" ;
+         thirdPlayer .age = 24 ;
+         thirdPlayer .rank = 3 ;
+         thirdPlayer .team = "Paris Sain Germanain" ;
+         //method to provide player information:
+         thirdPlayer .info() ;
+    }
+}
